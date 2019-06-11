@@ -90,7 +90,7 @@ header {
 }
 
 .container {
-	margin-top: 190px;
+	/*margin-top: 190px;*/
 }
 .cuadros1 {
 	display: flex; 
@@ -315,10 +315,8 @@ footer {
 .wrapper{
 	background-image: url(img/back.jpg);
 	background-attachment: fixed;
-	width: 100vw;
-	height: 100vh;
 }
-.wrapper2{
+/*.wrapper2{
 	background-image: url(img/back.jpg);
 	background-attachment: fixed;
 }
@@ -329,7 +327,7 @@ footer {
 .wrapper4{
 	background-image: url(img/back.jpg);
 	background-attachment: fixed;
-}
+}*/
 
 .temporadas p{
 	color: black;
