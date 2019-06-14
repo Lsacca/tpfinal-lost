@@ -90,7 +90,7 @@ header {
 }
 
 .container {
-	/*margin-top: 190px;*/
+	margin-top: 10px;
 }
 .cuadros1 {
 	display: flex; 
