@@ -13,6 +13,7 @@ body{
 header {
 	background-color: #edeeee;
 }
+
 .fijo {
 	position: fixed;
 	top: 0px;
@@ -89,8 +90,9 @@ header {
 	font-weight: bold;	
 }
 
+
 .container {
-	margin-top: 10px;
+	margin-top: 30px;
 }
 .cuadros1 {
 	display: flex; 
@@ -114,8 +116,8 @@ header {
 .cuadros {
 	display: flex; 
 	justify-content: space-around;
-	flex-wrap: wrap;
-	margin-top: 170px;
+	flex-wrap: nowrap;
+	margin-top: 30px;
 	margin-bottom: 50px;
 }
 .cuadrosself {
@@ -164,7 +166,9 @@ header {
 .cuadrosself:hover img {opacity: 0.5;}
 .cuadrosself:hover h2 {opacity: 0.8;}
 
-
+.pie {
+	background-color: #edeeee;
+}
 footer {
 	background-color: #edeeee;
 }
@@ -174,10 +178,16 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 }
+.col-3 img{
+	margin-left: 30px; 
+}
 .redes2 {
 	padding-top: 60px;
 	background-color: #edeeee;
-
+	width: 150%;
+}
+.redes2 img {
+	margin-left: 0px;
 }
 
 .footer h3{
@@ -190,7 +200,7 @@ footer {
 }
 
 .bloquepers {
-	padding-top: 200px;
+	padding-top: 30px;
 	display: flex; 
 	flex-direction: row;
 	justify-content: space-around;
@@ -261,15 +271,15 @@ footer {
 
 .titulo h1{
 	width: 100%;
-	margin-top: 200px;
+	margin-top: 30px;
 	text-align: center;
 	color: black;
 	background-color: #edeeee;
 }
-.col-3  {
-	/*padding-top: 10px;*/
-	/*margin-bottom: 10px;*/
+.col-3 {
+
 }
+
 .col-8 {
 	padding-top: 10px;
 	margin-bottom: 10px;
@@ -313,7 +323,7 @@ footer {
 	margin-top: 100px;
 }
 .wrapper{
-	background-image: url(img/back.jpg);
+	background-image: url(img/fondototal.jpg);
 	background-attachment: fixed;
 }
 /*.wrapper2{
@@ -349,7 +359,7 @@ footer {
 .temporal {
 	display: flex;
 	justify-content: center;
-	margin-top: 180px;
+	margin-top: 30px;
 }
 .seleccionado{
 	background-color: #edeeee;
@@ -387,6 +397,7 @@ footer {
 	color: black;
 	font-family: arcon;
 	font-weight: thin;
+	margin-bottom: 30px;
 }
 .sucesouno h4 {
 	background-color: #edeeee;
@@ -398,6 +409,8 @@ footer {
 	color: black;
 	font-family: arcon;
 	font-weight: thin;
+	margin-bottom: 30px;
+
 }
 .sucesodos h4 {
 	background-color: #edeeee;
@@ -409,6 +422,8 @@ footer {
 	color: black;
 	font-family: arcon;
 	font-weight: thin;
+	margin-bottom: 30px;
+
 }
 .sucesotres h4 {
 	background-color: #edeeee;
@@ -421,6 +436,8 @@ footer {
 	color: black;
 	font-family: arcon;
 	font-weight: thin;
+	margin-bottom: 30px;
+
 }
 .sucesocuatro h4 {
 	background-color: #edeeee;
@@ -433,6 +450,8 @@ footer {
 	color: black;
 	font-family: arcon;
 	font-weight: thin;
+	margin-bottom: 30px;
+
 }
 .sucesocinco h4 {
 	background-color: #edeeee;
@@ -471,7 +490,7 @@ footer {
 	color: black;
 	font-family: arcon;
 	font-weight: thin;
-	margin-top: 25px;
+	margin-top: 30px;
 }
 .fase h4 {
 	text-align: center;
@@ -479,6 +498,7 @@ footer {
 }
 .fase p {
 	font-size: 18px;
+	text-align: justify;
 }
 .fase img {
 	margin-left: 25%;
@@ -504,6 +524,7 @@ footer {
 
 .col-5, .col-3 , .col-4, .col-12{
 	background-color: #edeeee;
+
 }
 section{
 	background-color: #edeeee;
