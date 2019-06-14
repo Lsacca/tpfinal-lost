@@ -93,6 +93,43 @@ header {
 
 .container {
 	margin-top: 30px;
+	position: relative;
+}
+
+.botonslider {
+	position: absolute;
+	top: 350px;
+	right: 150px;
+	
+}
+
+.botonslider button {
+padding-right: 50px;
+padding-left: 50px;
+}
+
+.botonslider2 {
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	
+}
+
+.botonslider2 button {
+padding-right: 50px;
+padding-left: 50px;
+}
+
+.botonslider3 {
+	position: absolute;
+	top: 420px;
+	right: 150px;
+	
+}
+
+.botonslider3 button {
+padding-right: 50px;
+padding-left: 50px;
 }
 .cuadros1 {
 	display: flex; 
