@@ -360,22 +360,7 @@ footer {
 .ultimo {
 	margin-top: 100px;
 }
-.wrapper{
-	background-image: url(img/fondototal.jpg);
-	background-attachment: fixed;
-}
-/*.wrapper2{
-	background-image: url(img/back.jpg);
-	background-attachment: fixed;
-}
-.wrapper3{
-	background-image: url(img/back.jpg);
-	background-attachment: fixed;
-}
-.wrapper4{
-	background-image: url(img/back.jpg);
-	background-attachment: fixed;
-}*/
+
 
 .temporadas p{
 	color: black;
@@ -390,6 +375,7 @@ footer {
 
 	display: flex; 
 	justify-content: center;
+	margin-bottom: 5px;
 }
 
 
@@ -554,10 +540,16 @@ footer {
 .formulario{
 	display: flex;
 	justify-content: center;
-	padding-top: 170px;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 30px;
 	font-family: arcon;
 	font-size: 20px;
+}
+.col-12 h1{
+	text-align: center;
+
 }
 
 .col-5, .col-3 , .col-4, .col-12{
